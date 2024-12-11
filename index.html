@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <title>Собери новогоднюю ёлку</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img class="reload" src="reload.png" alt="" />
+    <!-- <img class="border" src="/border.png" alt="" /> -->
+    <h1 class="title">Собери новогоднюю ёлку!</h1>
+    <h2 class="warning"></h2>
+    <div id="game-container">
+      <div id="tree-container">
+        <img class="treeBack" src="tree-back.png" alt="" />
+        <!-- Зоны для размещения частей ёлки -->
+        <div class="drop-zone" data-part="1"></div>
+        <div class="drop-zone" data-part="2"></div>
+        <div class="drop-zone" data-part="3"></div>
+        <div class="drop-zone" data-part="4"></div>
+        <div class="drop-zone" data-part="5"></div>
+      </div>
+    </div>
+
+    <div id="parts-container">
+      <!-- Части ёлки -->
+      <img
+        src="treePart/three.png"
+        class="tree-part"
+        draggable="true"
+        data-part="3"
+      />
+      <img
+        src="treePart/one.png"
+        class="tree-part"
+        draggable="true"
+        data-part="1"
+      />
+      <img
+        src="treePart/two.png"
+        class="tree-part"
+        draggable="true"
+        data-part="2"
+      />
+      <img
+        src="treePart/five.png"
+        class="tree-part"
+        draggable="true"
+        data-part="5"
+      />
+
+      <img
+        src="treePart/four.png"
+        class="tree-part"
+        draggable="true"
+        data-part="4"
+      />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
