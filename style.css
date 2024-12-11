@@ -2,7 +2,9 @@
   touch-action: none;
   user-select: none;
 }
-
+html {
+    height: 100%;
+}
 @font-face {
   font-family: Duality;
   src: url(fonts/Duality.otf);
